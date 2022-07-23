@@ -1,7 +1,7 @@
 # tgram
 
 - Installing:   
-`pip install tgram`
+`pip install tgrambot`
 
 - Requirements:   
 `requests`
@@ -9,7 +9,7 @@
 # Sample Usage
 
 ```python
-from tgram import detector
+from tgrambot import detector
 
 sentence = "This is a sample sentence."
 word, detected = detector(sentence)
